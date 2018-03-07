@@ -3,7 +3,7 @@
 - step:
     name: Train model
     image: gcr.io/tensorflow/tensorflow:1.5.0-devel-gpu
-    command: python dcgan.py
+    command: python3 dcgan.py
 
 - step:
     name: Worker environment check
